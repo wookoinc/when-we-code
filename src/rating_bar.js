@@ -3,6 +3,11 @@ import PropTypes from 'prop-types';
 import {MdStar, MdStarOutline} from 'react-icons/lib/md';
 import configs from './configs';
 
+/**
+ * This component allows the user to rate something.
+ *
+ * See documentation at https://bitbucket.org/wookoinc/when-we-code/wiki/RatingBar
+ */
 export default class RatingBar extends Component {
   render() {
     return (
